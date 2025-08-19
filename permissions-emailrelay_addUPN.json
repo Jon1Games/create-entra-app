@@ -1,0 +1,9 @@
+{
+    "ExchangeOnlinePermissions": [
+        {
+            "EntraAppName": "E-MailRelay Test",
+            "UserPrincipalName": "user@domain.com",
+            "AccessRights": "FullAccess"
+        }
+    ]
+}

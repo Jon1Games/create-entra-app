@@ -1,0 +1,24 @@
+{
+    "EntraApplication": {
+        "Name": "E-MailRelay Test",
+        "SecretLifetimeMonths": 120,
+        "Permission": [
+            {
+                "ResourceAppId": "Office 365 Exchange Online",
+                "ResourceAccess": [
+                    {
+                        "Id": "SMTP.SendAsApp",
+                        "Type": "Role"
+                    }
+                ]
+            }
+        ]
+    },
+    "ExchangeOnlinePermissions": [
+        {
+            "EntraAppName": "E-MailRelay Test",
+            "UserPrincipalName": "user@example.com",
+            "AccessRights": "FullAccess"
+        }
+    ]
+}
